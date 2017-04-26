@@ -13,9 +13,9 @@
 		<property name="name" type="string">
 			<column name="name"></column>
 		</property>
-		<set name="item" table="ITEMS" fetch="select" cascade="save-update">
+		<set name="item" table="ITEMS" fetch="select" cascade="all">
 			<key>
-				<column name="cart_id" not-null="true"></column>
+				<column name="cart_id" not-null="true" ></column>
 			</key>
 			<one-to-many class="com.hibernate.model.Items" />
 		</set>

@@ -18,7 +18,7 @@
 			<column name="quantity"></column>
 		</property>
 		<many-to-one name="cart" class="com.hibernate.model.Cart">
-			<column name="cart_id" not-null="true"></column>
+			<column name="cart_id" not-null="true" ></column>
 		</many-to-one>
 	</class>
 </hibernate-mapping>

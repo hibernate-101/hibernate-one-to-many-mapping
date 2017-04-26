@@ -13,6 +13,8 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
         
+        
+        
         <mapping resource="cart-hbm.xml"/>
         <mapping resource="items-hbm.xml"/>
     </session-factory>
